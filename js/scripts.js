@@ -6,6 +6,8 @@ if(genero=="male"){
 		mensaje="sr";
 	} else if (genero=="female") {
 		mensaje="sra";
+	} else {
+		mensaje="srx";
 	}
 if (edad<18){
 	mensaje+=" usted no puede entrar";
